@@ -87,3 +87,9 @@ if ( !defined('ABSPATH') )
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
+
+define('FTP_PUBKEY','/home/traktern/wp_rsa.pub');
+define('FTP_PRIKEY','/home/traktern/wp_rsa');
+define('FTP_USER','traktern');
+define('FTP_PASS','');
+define('FTP_HOST','127.0.0.1:22');
